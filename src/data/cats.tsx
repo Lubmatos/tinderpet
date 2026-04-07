@@ -17,7 +17,7 @@ export const cats: Cat[] = [
         id:2,
         name:'Neném 🐈​',
         race:'SRD',
-        description:'Gato adulto, dorminhoco e extremamente manhoso, adora pegar insetos 🐯🐭.​',
+        description:'Gato adulto, dorminhoco e extremamente manhoso, adora pegar insetos 🐯🐭.',
         image: require("../../assets/image/GatoDois.png")
     },
      {

@@ -8,6 +8,9 @@ export default function HomeScreen({ navigation }: any){
     const goToCats = () => {
         navigation.navigate("Cat");
     }
+    const goToDogs =() =>{
+        navigation.navigate("Dog");
+    }
     const [fontsLoaded] = useFonts({
         Bauhaus93: require('../../assets/fonts/bauhaus-93/Bauhaus93-Regular.ttf'),
         JetBrainsMono: require('../../assets/fonts/ttf/JetBrainsMono-Regular.ttf')
@@ -33,7 +36,7 @@ export default function HomeScreen({ navigation }: any){
                 <TouchableOpacity
                  style={styles.button}>
                  <Text style={styles.label}>DOG</Text>
-                    <HeartButton size={70}/>
+                    <HeartButton size={70} onPress={goToDogs}/>
                 </TouchableOpacity>
            </View>
            <View> 
